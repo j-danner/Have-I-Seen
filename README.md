@@ -26,6 +26,8 @@ Found 10 concerts for Insomnium. You have been at:
 
 The output is also highlighted nicely in most terminals, so it is easier to read.
 
+Use `-h` to get additional help on the arguments.
+
 ### Requirements
 
 The tool relies mainly on the package `setlist-fm-client`, see `requirements.txt` for details.
