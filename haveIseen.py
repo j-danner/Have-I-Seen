@@ -75,7 +75,7 @@ def main():
         if not(c_art in conc_dict):
             conc_dict[ c_art ] = []
         conc_dict[ c_art ].append( c )
-    print(f"You have visited {Fore.GREEN}{len(setlists)}{Style.RESET_ALL} concerts by {Fore.GREEN}{len(conc_dict)}{Style.RESET_ALL} different artists.")
+    print(f"You have attended {Fore.GREEN}{len(setlists)}{Style.RESET_ALL} concerts by {Fore.GREEN}{len(conc_dict)}{Style.RESET_ALL} different artists.")
 
     date_dict = {}
     for c in setlists:
